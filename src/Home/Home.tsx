@@ -6,42 +6,7 @@ import GridLayout from '../Components/GridLayout';
 
 
 const Home = () => {
-    const categories = [
-        {
-            title: "Bags",
-            items: 15,
-            image: "https://i.postimg.cc/XYCJNHJb/temp-Image7-Ig-WCq.avif",
-            colSpan: "col-span-1 row-span-2",
-        },
-        {
-            title: "Sale",
-            subtitle: "Simplicity . Freedom . Comfort",
-            image: "https://i.postimg.cc/nc5rJbn2/temp-Imagea-G5gv-T.avif",
-            colSpan: "col-span-1 row-span-1",
-        },
-        {
-            title: "Men Collection",
-            items: 114,
-            image: "https://i.postimg.cc/nc5rJbn2/temp-Imagea-G5gv-T.avif",
-            colSpan: "col-span-1 row-span-2",
-        },
-        {
-            title: "Accessories",
-            image: "https://i.postimg.cc/nc5rJbn2/temp-Imagea-G5gv-T.avif",
-            colSpan: "col-span-1 row-span-1",
-        },
-        {
-            title: "Women Collection",
-            subtitle: "SIMPLY OR WHITE",
-            image: "https://i.postimg.cc/nc5rJbn2/temp-Imagea-G5gv-T.avif",
-            colSpan: "col-span-1 row-span-2",
-        },
-        {
-            title: "Watches",
-            image: "https://i.postimg.cc/nc5rJbn2/temp-Imagea-G5gv-T.avif",
-            colSpan: "col-span-1 row-span-1",
-        },
-    ];
+
     return (
         <div className="w-full items-center justify-center ">
             <div className='w-full h-screen  flex items-center justify-center relative'>
