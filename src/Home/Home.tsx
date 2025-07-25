@@ -18,7 +18,7 @@ const Home = () => {
                         transition={{ duration: 0.4 }}
                         src={image1}
                         alt="Model Back"
-                        className="absolute left-0 bottom-0 w-[40%] md:w-[30%] lg:w-[30%] object-contain rounded-tr-4xl"
+                        className="absolute left-0 -bottom-6 w-[40%] md:w-[30%] lg:w-[30%] object-contain rounded-tr-4xl"
                     />
                 </div>
 
@@ -30,7 +30,7 @@ const Home = () => {
                         transition={{ duration: 0.4 }}
                         src={image2}
                         alt="Model Front"
-                        className="absolute right-0 top-0 w-[40%] md:w-[30%] lg:w-[30%] object-contain  transform rotate-180 "
+                        className="absolute right-0 top-5 w-[40%] md:w-[30%] lg:w-[30%] object-contain  transform rotate-180 "
                     />
                 </div>
 
@@ -61,7 +61,7 @@ const Home = () => {
 
             {/* <div className=' border-1 border-gray-500 w-40 justify-center items-center flex mx-auto'></div> */}
             <motion.div
-                className="w-24 border bg-slate-200 mx-auto mt-6"
+                className="w-24 border bg-slate-200 mx-auto mt-10"
                 initial={{ scaleX: 0 }}
                 whileInView={{ scaleX: 1 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
