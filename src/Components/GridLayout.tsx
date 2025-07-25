@@ -1,15 +1,7 @@
 import { GiCrossMark } from "react-icons/gi";
 
 const GridLayout = () => {
-    const data = [
-        { row: 1, col: 1, rowSpan: 2, image: 'https://i.postimg.cc/XYCJNHJb/temp-Image7-Ig-WCq.avif' },
-        { row: 3, col: 1, rowSpan: 2, image: 'https://i.postimg.cc/nc5rJbn2/temp-Imagea-G5gv-T.avif' },
-        { row: 1, col: 2, content: 'Sale . Simplicity' },
-        { row: 2, col: 2, rowSpan: 2, image: 'https://i.postimg.cc/zB7h8tfj/temp-Image-Rhd-SLA.avif' },
-        { row: 4, col: 2, content: 'Sale' },
-        { row: 1, col: 3, rowSpan: 2, image: 'https://i.postimg.cc/zB7h8tfj/temp-Image-Rhd-SLA.avif' },
-        { row: 3, col: 3, rowSpan: 2, image: 'https://i.postimg.cc/zB7h8tfj/temp-Image-Rhd-SLA.avif' }
-    ]
+   
 
     return (
         <div className="w-[80%] flex items-center justify-center p-6 bg-white">
