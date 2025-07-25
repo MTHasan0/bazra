@@ -35,7 +35,7 @@ const Home = () => {
                 </div>
 
 
-                <div className=" text-center z-0">
+                <div className=" text-center z-0 pt-20 lg:pt-0 md:pt-0">
                     <motion.p
                         initial={{ x: -100, opacity: 0 }}
                         animate={{ x: 0, opacity: 100 }}
