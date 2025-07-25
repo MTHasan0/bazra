@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="w-full items-center justify-center ">
             <div className='w-full h-screen  flex items-center justify-center relative'>
-                {/* Left Model */}
+
                 <div className=' '>
                     <motion.img
                         initial={{ y: -100, opacity: 0 }}
@@ -18,11 +18,11 @@ const Home = () => {
                         transition={{ duration: 0.4 }}
                         src={image1}
                         alt="Model Back"
-                        className="absolute left-0 bottom-0 w-[30%] object-contain rounded-tr-4xl"
+                        className="absolute left-0 bottom-0 w-[40%] md:w-[30%] lg:w-[30%] object-contain rounded-tr-4xl"
                     />
                 </div>
 
-                {/* Right Model (Upside Down) */}
+
                 <div className=' '>
                     <motion.img
                         initial={{ y: -200, opacity: 0 }}
@@ -30,11 +30,11 @@ const Home = () => {
                         transition={{ duration: 0.4 }}
                         src={image2}
                         alt="Model Front"
-                        className="absolute right-0 top-0 w-[30%] object-contain  transform rotate-180 "
+                        className="absolute right-0 top-0 w-[40%] md:w-[30%] lg:w-[30%] object-contain  transform rotate-180 "
                     />
                 </div>
 
-                {/* Center Text Content */}
+
                 <div className=" text-center z-0">
                     <motion.p
                         initial={{ x: -100, opacity: 0 }}
@@ -66,7 +66,7 @@ const Home = () => {
                 whileInView={{ scaleX: 1 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
             />
-            {/* Grid layout Section */}
+
 
             <div className=' w-full flex-wrap mt-10'>
                 <motion.p
