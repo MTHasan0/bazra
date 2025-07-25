@@ -18,7 +18,7 @@ const Home = () => {
                         transition={{ duration: 0.4 }}
                         src={image1}
                         alt="Model Back"
-                        className="absolute left-0 bottom-0 w-[30%] object-contain z-10 rounded-tr-4xl"
+                        className="absolute left-0 bottom-0 w-[30%] object-contain rounded-tr-4xl"
                     />
                 </div>
 
@@ -30,7 +30,7 @@ const Home = () => {
                         transition={{ duration: 0.4 }}
                         src={image2}
                         alt="Model Front"
-                        className="absolute right-0 top-0 w-[30%] object-contain transform rotate-180 "
+                        className="absolute right-0 top-0 w-[30%] object-contain  transform rotate-180 "
                     />
                 </div>
 
