@@ -25,7 +25,7 @@ const ProductCard = () => {
                                 <img className=" " src={product.image} alt="" />
                             </div>
                             {/* car logo section */}
-                            <div className="flex justify-around h-15 text-2xl font-bold items-center text-center absolute bottom-0 left-0 right-0 bg-slate-100 translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out py-3">
+                            <div className="flex justify-around h-15 text-2xl font-bold items-center text-center absolute bottom-0 left-0 right-0 bg-slate-100 lg:translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out py-3">
                                 <CiShoppingCart className=" cursor-pointer" />
                                 <CiHeart className=" cursor-pointer" />
                                 <CiSearch className=" cursor-pointer" />
