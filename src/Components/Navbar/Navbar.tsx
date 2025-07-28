@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
 
 
-        <nav className="bg-white w-full fixed z-10 top-0 start-0 border-b border-gray-200 dark:border-gray-300 mb-1">
+        <nav className="bg-white w-full fixed z-100 top-0 start-0 border-b border-gray-200 dark:border-gray-300 mb-1 overflow-hidden ">
             <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1, transition: { duration: 0.4 } }}

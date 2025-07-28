@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Classic Denim Jacket",
+        "price": 89.99,
+        "image": "https://i.postimg.cc/B67ghS4K/temp-Imagemiv-EPl.avif"
+    },
+    {
+        "title": "Minimalist White Tee",
+        "price": 24.99,
+        "image": "https://i.postimg.cc/B67ghS4K/temp-Imagemiv-EPl.avif"
+    },
+    {
+        "title": "Linen Blend Trousers",
+        "price": 59.49,
+        "image": "https://i.postimg.cc/B67ghS4K/temp-Imagemiv-EPl.avif"
+    },
+    {
+        "title": "Leather Loafers",
+        "price": 129.0,
+        "image": "https://i.postimg.cc/B67ghS4K/temp-Imagemiv-EPl.avif"
+    },
+    {
+        "title": "Slim Fit Chinos",
+        "price": 44.95,
+        "image": "https://i.postimg.cc/B67ghS4K/temp-Imagemiv-EPl.avif"
+    },
+    {
+        "title": "Casual Hoodie",
+        "price": 49.99,
+        "image": "https://i.postimg.cc/B67ghS4K/temp-Imagemiv-EPl.avif"
+    }
+]
