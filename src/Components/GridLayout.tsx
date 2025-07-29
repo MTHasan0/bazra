@@ -34,8 +34,8 @@ import { GiCrossMark } from "react-icons/gi";
 
 const GridLayout = () => {
     return (
-        <div className="hidden w-[80%] lg:flex md:flex items-center justify-center p-2 bg-white">
-            <div className="grid grid-cols-3 grid-rows-4 gap-4 w-full relative">
+        <div className=" w-[80%] lg:flex md:flex items-center justify-center p-2 bg-white">
+            <div className=" flex flex-wrap md:grid lg:grid md:grid-cols-3 lg:grid-cols-3 md:grid-rows-4 lg:grid-rows-4 gap-4 w-full relative">
 
                 <div className="relative row-span-2 shadow-xl rounded-xl group overflow-hidden">
                     <img
@@ -51,8 +51,8 @@ const GridLayout = () => {
                 </div>
 
 
-                <div className="shadow-xl flex text-center items-center justify-center rounded-2xl text-gray-400 text-2xl uppercase">
-                    <GiCrossMark className="text-4xl shadow-2xl" />
+                <div className=" hidden shadow-xl md:flex lg:flex text-center items-center justify-center rounded-2xl text-gray-400 text-2xl uppercase">
+                    <GiCrossMark className=" flex text-4xl shadow-2xl items-center text-center justify-center " />
                 </div>
 
 
@@ -112,7 +112,7 @@ const GridLayout = () => {
                 </div>
 
 
-                <div className="flex shadow-xl text-center items-center justify-center text-gray-400">
+                <div className="hidden shadow-xl md:flex lg:flex text-center items-center justify-center text-gray-400">
                     <GiCrossMark className="text-4xl shadow-2xl" />
                 </div>
             </div>

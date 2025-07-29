@@ -6,6 +6,8 @@ import image2 from '../assets/Landing_Page_Image/image2.png';
 import image3 from '../assets/Landing_Page_Image/image2.png'; // Add a third image if needed
 import GridLayout from '../Components/GridLayout';
 import ProductCard from '../Components/ProductCard';
+import { FaFacebook } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 
 const heroSlides = [
@@ -142,6 +144,31 @@ const Home = () => {
                     <ProductCard></ProductCard>
                 </div>
             </section>
+            {/* Social Media Section */}
+            <div className=' border border-gray-200 w-full mt-16'></div>
+            <section className=' w-full px-3'>
+                <div className=' flex gap-4 text-center items-center justify-center mt-5'>
+                    <h2 className=' text-2xl md:text-4xl lg:text-4xl text-gray-500'>Follow us on <span className=' text-blue-500'>Facebook</span></h2>
+                    <Link to={'https://www.facebook.com'}><FaFacebook className=' text-blue-500 text-4xl'></FaFacebook></Link>
+                </div>
+                <div className=' flex gap-3 md:gap-16 lg:gap-20  items-center justify-around md:justify-center lg:justify-center mt-20'>
+                    <div className=' text-center items-center'>
+                        <p className=' text-xl lg:text-2xl md:text-2xl'>MONEY BACK</p>
+                        <p className=' text-lg lg:text-xl md:text-xl text-gray-500'>100% money back guarantee</p>
+                    </div>
+                    <div className=' divider divider-horizontal'></div>
+                    <div className=' text-center items-center'>
+                        <p className=' text-xl lg:text-2xl md:text-2xl'>SHIPPING & RETURN</p>
+                        <p className=' text-lg lg:text-xl md:text-xl text-gray-500'>Free</p>
+                    </div>
+                    <div className=' divider divider-horizontal'></div>
+                    <div className=' text-center items-center'>
+                        <p className=' text-xl lg:text-2xl md:text-2xl'>SUPPORT</p>
+                        <p className=' text-lg lg:text-xl md:text-xl text-gray-500'>24/7</p>
+                    </div>
+                </div>
+            </section>
+            <div className=' border border-gray-200 w-full mt-20'></div>
         </div>
     );
 };

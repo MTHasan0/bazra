@@ -21,16 +21,24 @@ const ProductCard = () => {
                 {
                     productList.map((product) => (
                         <div className="max-w-sm relative shadow-xl group overflow-hidden">
+                            <div className=" w-fit bg-gray-100 ">
+                                <p className=" p-3 ">{product.size}</p>
+                            </div>
                             <div className="w-fit">
                                 <img className=" " src={product.image} alt="" />
                             </div>
                             {/* car logo section */}
-                            <div className="flex justify-around h-15 text-2xl font-bold items-center text-center absolute bottom-0 left-0 right-0 bg-slate-100 lg:translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out py-3">
-                                <CiShoppingCart className=" cursor-pointer" />
-                                <CiHeart className=" cursor-pointer" />
-                                <CiSearch className=" cursor-pointer" />
+                            <div className="mb-15 flex justify-around">
+                                <p>{product.title}</p>
+                                <p>${product.price}</p>
+                            </div>
+                            <div className=" flex justify-around h-13 text-4xl font-bold items-center text-center absolute bottom-0 left-0 right-0 bg-slate-100 lg:translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out py-3">
+                                <CiShoppingCart className=" cursor-pointer hover:bg-gray-200 p-2 rounded-xl" />
+                                <CiHeart className=" cursor-pointer hover:bg-gray-200 p-2 rounded-xl" />
+                                <CiSearch className=" cursor-pointer hover:bg-gray-200 p-2 rounded-xl" />
 
                             </div>
+
                         </div>
                     ))
                 }
